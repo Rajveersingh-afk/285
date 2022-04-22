@@ -1,0 +1,119 @@
+html{
+    scroll-behavior:smooth
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(12, 115, 48);
+
+}
+.logo{
+   text-align: center;
+}
+
+
+.nav{
+    background-color: rgb(5, 79, 36);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.nav li:hover{
+    font-size: 25px;
+    cursor: pointer;
+    color: rgb(192, 203, 128);
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.nav li {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline;
+    transition: .5s;
+  }
+
+  .nav a{
+      color: black;
+      text-decoration: none;
+  }
+
+
+.home img{
+    margin-top: 50px;
+    margin-left: 25%;
+}
+
+.home h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.feature{
+    background-color: rgb(15, 153, 66);
+}
+#feature{
+    color: black;
+}
+#feature img{
+    margin-left: 25%;
+}
+
+#feature h1,h2{
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.feature2{
+    transition: .5s;
+}
+.feature2:hover{
+ margin-left: -10%;
+}
+.trail{
+    transition: .5s;
+}
+.trail:hover{
+    margin-right: -10%;
+}
+#trails{
+    transition: .5s;
+}
+#trails:hover{
+    font-size: 40px;
+}
+.cats{
+    transition: .5s;
+}
+.cats:hover{
+    margin-left: 10%;
+}
+
+.help{
+    text-align: center;
+}
+
+input{
+    width: 50%;
+    padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 2px solid red;
+}
+input[type=text] {
+    background-color: #3CBC8D;
+    color: white;
+  }
+  .button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-sizing: content-box;
+  }
+.button1:hover{
+    size: 100%;
+}
+  
